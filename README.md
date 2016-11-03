@@ -1,7 +1,7 @@
 
 I want to make a mobile application for an airport .
 
-1 an input form :id , name, price, destination
+1 an input form :id , name, price, destination + CRUD
 2 a list of items : list of planes
 3 display a chart : this chart represent the best comapnies which have the most clients
 4 authentication : each users must to be autheticated with username and password and just then they will see all flights
