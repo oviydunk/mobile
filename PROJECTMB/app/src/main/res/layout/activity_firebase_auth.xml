@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_firebase_auth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.planesmonitor.activitiy.FirebaseAuthActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:id="@+id/tv_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_email"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passwd"
+        android:id="@+id/tv_passwd"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_passwd"
+        android:inputType="textPassword"/>
+    <Button
+        android:text="@string/sign_in"
+        android:id="@+id/btn_sign_in"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="signInExistingUser"/>
+    <Button
+        android:text="@string/sign_up"
+        android:id="@+id/btn_sign_up"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="createAccount"/>
+
+    <Button
+        android:text="@string/sign_out"
+        android:id="@+id/btn_sign_out"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="signOut"/>
+
+    <Button
+        android:text="Pilot"
+        android:id="@+id/btn_pilot"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="pilotSelected"/>
+
+    <Button
+        android:text="@string/reg_user"
+        android:id="@+id/btn_reg_user"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="regUserSelected"/>
+
+
+
+</LinearLayout>

@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,10 +25,12 @@ public class MainActivity extends Activity {
     public View ftView;
     public boolean isLoading = false;
     public int currentId=11;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         lvPlane = (ListView)findViewById(R.id.listview_plane);
 
@@ -133,4 +136,5 @@ public class MainActivity extends Activity {
 
         }
     }
+
 }

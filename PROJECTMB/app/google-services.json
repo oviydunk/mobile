@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "490233091277",
+    "firebase_url": "https://planesmonitor-3a793.firebaseio.com",
+    "project_id": "planesmonitor-3a793",
+    "storage_bucket": "planesmonitor-3a793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490233091277:android:c8a6d0f8e1755a7e",
+        "android_client_info": {
+          "package_name": "com.example.android.planesmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490233091277-46sdqolubraq65r0mvmsupvagkkofjs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKo2x1M3dWqJF9Rb77XKBSWjKdsMCez6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

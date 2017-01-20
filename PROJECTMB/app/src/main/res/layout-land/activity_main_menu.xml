@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/bgColor"
+    tools:context="com.example.android.planesmonitor.activitiy.MainMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_usr_email"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_role"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add plane activity"
+        android:id="@+id/btnAddPlaneActivity"
+        android:textColor="@color/bgColor"
+        android:background="@color/emphColor"
+        android:onClick="onBtnAddPlaneActivityClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show all plane activities"
+        android:textColor="@color/bgColor"
+        android:background="@color/emphColor"
+        android:id="@+id/btnShowAllPlaneActivity"
+        android:onClick="onBtnShowAllPlaneActivityClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add pilot"
+        android:id="@+id/btn_add_pilot"
+        android:textColor="@color/bgColor"
+        android:background="@color/emphColor"
+        android:onClick="onBtnAddPilotClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View pasengers"
+        android:id="@+id/btn_view_pasengers"
+        android:textColor="@color/bgColor"
+        android:background="@color/emphColor"
+        android:onClick="onBtnViewPasengersClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pilot_name"/>
+
+</LinearLayout>

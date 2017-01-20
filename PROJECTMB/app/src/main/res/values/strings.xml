@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Planes Monitor</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_out">Sign out</string>
+    <string name="email">Email</string>
+    <string name="passwd">Password</string>
+    <string name="pilot">Pilot</string>
+    <string name="reg_user">Regular User</string>
+    <string name="add_pilot">Add pilot</string>
+    <string name="view_pasengers">View pasengers</string>
+</resources>

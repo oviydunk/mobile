@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "1000537691084",
+    "firebase_url": "https://customlistviewadapterexam.firebaseio.com",
+    "project_id": "customlistviewadapterexam",
+    "storage_bucket": "customlistviewadapterexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000537691084:android:ea559d3feddcbcc7",
+        "android_client_info": {
+          "package_name": "com.gnirt69.customlistviewadapterexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000537691084-ek2pd7uanrmgskitv02e76lu2oh4m2lb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gnirt69.customlistviewadapterexam",
+            "certificate_hash": "E219E8DC93A90A33727B777AE48A0071A4E2E240"
+          }
+        },
+        {
+          "client_id": "1000537691084-ba4beu9qlgf4kb2uvopgbjb2r828mgt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000537691084-ba4beu9qlgf4kb2uvopgbjb2r828mgt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
